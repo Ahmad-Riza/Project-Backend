@@ -1,0 +1,34 @@
+GET http://localhost:3000/package
+
+###
+GET http://localhost:3000/store
+
+###
+GET http://localhost:3000/vehicle
+
+###
+POST http://localhost:3000/package/add
+
+###
+POST http://localhost:3000/store/add
+
+###
+POST http://localhost:3000/vehicle/add
+
+###
+PUT http://localhost:3000/package/edit
+
+###
+PUT http://localhost:3000/store/edit
+
+###
+PUT http://localhost:3000/vehicle/edit
+
+###
+DELETE http://localhost:3000/package/remove/1
+
+###
+DELETE http://localhost:3000/store/remove/1
+
+###
+DELETE http://localhost:3000/vehicle/remove/1
